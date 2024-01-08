@@ -1,5 +1,6 @@
 # Scull-driver README
-**Embeded System: 특정한 기능을 수행하도록 설계된 전용 컴퓨터 시스템**
+**🖥️Embeded System: 특정한 기능을 수행하도록 설계된 전용 컴퓨터 시스템**
+
 <br>
 
 ## 1. 프로젝트 소개
@@ -9,8 +10,12 @@
 - scull driver는 이런 문자 디바이스를 통해 사용자 공간 프로세스와 커널 간의 데이터 송수신을 합니다.
 - 이런 교육용 드라이버(scull driver)를 Linux Shell commands와 User Application를 통해 데이터를 드라이버 쓰고 읽음을 확인함으로써 드라이버의 동작원리를 이해하는게 이 프로젝트의 최종 목적입니다.
 ## 2. Linux Device Dirver Architecture
-
+<div>
+  
+</div>
 ![image](https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/88d06841-e0b4-443e-b4bb-27c79494352a)
+![image](https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/eccf5199-9670-411e-bf14-51e5f251138a)
+
 - User Application에서 파일 입출력 함수 사용시 SWI가 실행.
 - SWI Handler가 File System에 접근 하고, 각각의 Device Driver에 접근하여 해당 함수 처리.
 - Block Device: 데이터를 한번 읽을때, 큰 Block 단위를 갖고 오며 나머지 Block은 버퍼에 저장한다. 이를 통해 큰양의 데이터를 처리 가능하며, 데이터는 Block size만큼 cache된다. 추가적으로 블록 크기만큼의 데이터를 순차적이지 않은 위치에서 읽거나 쓸 수 있다. (사용 예:HDD,SSD 등)
