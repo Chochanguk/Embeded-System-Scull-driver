@@ -11,10 +11,9 @@
 - 이런 교육용 드라이버(scull driver)를 Linux Shell commands와 User Application를 통해 데이터를 드라이버 쓰고 읽음을 확인함으로써 드라이버의 동작원리를 이해하는게 이 프로젝트의 최종 목적입니다.
 ## 2. Linux Device Dirver Architecture
 <div>
-  
+  <img src="https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/88d06841-e0b4-443e-b4bb-27c79494352a" width=65%/>
+  <img src="https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/eccf5199-9670-411e-bf14-51e5f251138a" width=35%/>
 </div>
-![image](https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/88d06841-e0b4-443e-b4bb-27c79494352a)
-![image](https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/eccf5199-9670-411e-bf14-51e5f251138a)
 
 - User Application에서 파일 입출력 함수 사용시 SWI가 실행.
 - SWI Handler가 File System에 접근 하고, 각각의 Device Driver에 접근하여 해당 함수 처리.
