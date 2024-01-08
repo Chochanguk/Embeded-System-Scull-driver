@@ -23,7 +23,7 @@
 - 커널은 특정 디바이스 파일이 열릴 때, 그 디바이스에 대한 file_operations 구조체의 인스턴스(inode)를 찾아 사용한다.
   
 <div align="center">
-  ![image](https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/975ef459-3c7d-4a32-b89d-064bd93b5d2c)
+  <img src="https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/975ef459-3c7d-4a32-b89d-064bd93b5d2c">
 </div>
 
 <br>
