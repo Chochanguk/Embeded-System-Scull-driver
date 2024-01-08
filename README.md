@@ -21,7 +21,10 @@
 - Character Device: 데이터를 문자 단위로 데이터를 읽고 쓰는 디바이스. 문자 스트림을 사용하므로 데이터를 순차적인 접근을 하고 순차적으로 처리 된다.(사용 예: 터미널,마우스,키보드,프린터 등에서 사용)
 - MAJOR#는 디바이스 드라이버의 고유 식별 번호 MINOR#는 해당 MAJOR#의 특정 디바이스를 뜻한다.
 - 커널은 특정 디바이스 파일이 열릴 때, 그 디바이스에 대한 file_operations 구조체의 인스턴스(inode)를 찾아 사용한다.
-![image](https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/975ef459-3c7d-4a32-b89d-064bd93b5d2c)
+  
+<div align="center">
+  ![image](https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/975ef459-3c7d-4a32-b89d-064bd93b5d2c)
+</div>
 
 <br>
 
