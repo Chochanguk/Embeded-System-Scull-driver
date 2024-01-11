@@ -6,7 +6,7 @@
 ## 1. 프로젝트 소개
 
 - scull driver는 문자 기반 드라이버로써, 주로 Linux 커널에서 드라이버 개발 및 커널 모듈 프로그래밍을 교육용으로 사용되거나 디버깅하는 용도로 사용됩니다.
-- scull dirver는 메모리에 데이터를 가져저장하거나 가져오는 작은 고립된 블록을 통해 가상의 문자 디바이스를 만듭니다.
+- scull driver는 메모리에 데이터를 가져저장하거나 가져오는 작은 고립된 블록을 통해 가상의 문자 디바이스를 만듭니다.
 - scull driver는 이런 가상의 문자 디바이스를 통해 사용자 공간 프로세스와 커널 간의 데이터 송수신을 합니다.
 - scull driver를 Linux Shell commands와 User Application를 통해 데이터를 드라이버에 읽고, 쓰여짐을 확인함으로써 드라이버의 동작원리를 이해하는게 이 프로젝트의 최종 목적입니다.
 ## 2. Linux Device Dirver Architecture
