@@ -39,7 +39,8 @@ int __init m_init(void)
 	int err = 0;
 	dev_t devno;
 
-	printk(KERN_WARNING MODULE_NAME " is loaded\n");
+	// 커널에서 사용된 모듈 확인
+	printk(KERN_WARNING MODULE_NAME " is loaded\n\n");
 
 	//Alloc device number
 	err = alloc_chrdev_region(&devno, scull_minor, SCULL_NR_DEVS, MODULE_NAME);
@@ -97,6 +98,6 @@ module_init(m_init);
 module_exit(m_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("d0u9");
+MODULE_AUTHOR("Chochanguk");
 MODULE_DESCRIPTION("A simple memory based storage device aims to demonstrate "
 		   "basic concepts of char device");
