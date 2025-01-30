@@ -22,7 +22,7 @@ else
     # 'modules' 타겟: 커널 모듈을 빌드
 .PHONY: clean
 modules:
-	# 커널 빌드 시스템을 호출하여 모듈 빌드 수행
+	# 커널 빌드 시스템을 호출하여 모듈 빌드 수행 (C 옵션: 캐릭터 디바이스 드라이버)
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
 endif
 

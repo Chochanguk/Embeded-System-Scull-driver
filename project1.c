@@ -23,21 +23,21 @@ int main() {
 
     if (write(file_descriptor, buffer, sizeof(buffer)) < 0) {
         perror("Failed to write to the device");
-        release(file_descriptor);
+        close(file_descriptor);
         exit(EXIT_FAILURE);
     }
 
     // 디바이스에서 데이터 읽기
     if (read(file_descriptor, buffer, sizeof(buffer)) < 0) {
         perror("Failed to read from the device");
-        release(file_descriptor);
+        close(file_descriptor);
         exit(EXIT_FAILURE);
     }
 
     printf("Data read from the device: %s\n", buffer);
 
     // 디바이스 파일 닫기
-    release(file_descriptor);
+    close(file_descriptor);
 
     return 0;
 }
