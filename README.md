@@ -46,7 +46,7 @@
 ## 2. Linux Device Driver Architecture
 
 <details>
-<summary>🖼️ **이미지 보기**</summary>
+<summary>🖼️ 이미지 보기</summary>
 
 <img src="https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/88d06841-e0b4-443e-b4bb-27c79494352a" width=65%/>
 <img src="https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/eccf5199-9670-411e-bf14-51e5f251138a" width=30%/>
@@ -69,7 +69,7 @@
   - 특정 디바이스 파일이 열릴 때, 해당 `file_operations` 구조체에서 인스턴스를 찾아 사용함.
 
 <details>
-<summary>🖼️ **디바이스 드라이버 구조**</summary>
+<summary>🖼️ 디바이스 드라이버 구조</summary>
 
 <img src="https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/975ef459-3c7d-4a32-b89d-064bd93b5d2c">
 
