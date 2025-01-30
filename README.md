@@ -82,6 +82,12 @@
 ### 3.1. make (Compiling the source code)
 
 <details>
+<summary>🖼️ 코드 보기</summary>
+<img src="https://github.com/user-attachments/assets/d003c728-2d70-4192-a69d-367edf667f21">
+
+</details>
+
+<details>
 <summary>📜 설명 보기</summary>
 
 - `make`는 `Makefile`을 읽어 빌드 프로세스를 자동화함.
@@ -89,16 +95,17 @@
 
 </details>
 
-<details>
-<summary>🖼️ 결과 보기</summary>
-
-<img src="https://github.com/user-attachments/assets/b8415a6a-9981-40f5-a6a3-821cb56b26c3">
-
-</details>
 
 ---
 
 ### 3.2. Shell Script (insmod and mknode)
+
+<details>
+<summary>🖼️ 코드 보기</summary>
+
+<img src="https://github.com/user-attachments/assets/e78629ad-3d7d-4b4d-8720-9a5b7ee1b4b6">
+
+</details>
 
 <details>
 <summary>📜 설명 보기</summary>
@@ -111,12 +118,6 @@
 
 </details>
 
-<details>
-<summary>🖼️ 결과 보기</summary>
-
-<img src="https://github.com/user-attachments/assets/e78629ad-3d7d-4b4d-8720-9a5b7ee1b4b6">
-
-</details>
 
 ---
 
