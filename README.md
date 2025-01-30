@@ -71,7 +71,7 @@
 <details>
 <summary>🖼️ 디바이스 드라이버 구조</summary>
 
-<img src="https://github.com/Chochanguk/Embeded-System-Scull-driver/assets/119058637/975ef459-3c7d-4a32-b89d-064bd93b5d2c">
+<img src="https://github.com/user-attachments/assets/75b915f8-0051-4ef9-b2dc-3ad45638ee6c">
 
 </details>
 
