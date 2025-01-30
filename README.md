@@ -82,7 +82,7 @@
 ### 3.1. make (Compiling the source code)
 
 <details>
-<summary>📜 **설명 보기**</summary>
+<summary>📜 설명 보기</summary>
 
 - `make`는 `Makefile`을 읽어 빌드 프로세스를 자동화함.
 - 커널 빌드 시스템을 호출하여 **캐릭터 디바이스 모듈을 빌드**함.
@@ -90,7 +90,7 @@
 </details>
 
 <details>
-<summary>🖼️ **결과 보기**</summary>
+<summary>🖼️ 결과 보기</summary>
 
 <img src="https://github.com/user-attachments/assets/b8415a6a-9981-40f5-a6a3-821cb56b26c3">
 
@@ -101,7 +101,7 @@
 ### 3.2. Shell Script (insmod and mknode)
 
 <details>
-<summary>📜 **설명 보기**</summary>
+<summary>📜 설명 보기</summary>
 
 - 디바이스 파일은 **커널 모듈과 사용자 프로그램 간의 인터페이스** 역할을 수행.
 1. 모듈 정보 정의 (Read/Write 권한 설정)
@@ -112,7 +112,7 @@
 </details>
 
 <details>
-<summary>🖼️ **결과 보기**</summary>
+<summary>🖼️ 결과 보기</summary>
 
 <img src="https://github.com/user-attachments/assets/e78629ad-3d7d-4b4d-8720-9a5b7ee1b4b6">
 
@@ -123,7 +123,7 @@
 ### 3.3. 사용자 프로그램(C)로 드라이버 구현 확인
 
 <details>
-<summary>🖼️ **이미지 보기**</summary>
+<summary>🖼️ 이미지 보기</summary>
 
 <img src="https://github.com/user-attachments/assets/48ca5657-d9de-4af2-b48f-f3d8ec3e5e09">
 
@@ -134,7 +134,7 @@
 ### 3.4. 멀티 프로세서 환경에서 뮤텍스 실행 확인
 
 <details>
-<summary>🖼️ **이미지 보기**</summary>
+<summary>🖼️ 이미지 보기</summary>
 
 <img src="https://github.com/user-attachments/assets/f36cb79b-9f95-4c57-b3e9-4e2ad082d07a">
 
