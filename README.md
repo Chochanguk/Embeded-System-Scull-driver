@@ -100,7 +100,8 @@
 
 <details>
 <summary>🖼️ 코드 보기</summary>
-<img src="https://github.com/user-attachments/assets/e78629ad-3d7d-4b4d-8720-9a5b7ee1b4b6">
+
+<img src="https://github.com/user-attachments/assets/7ac720f6-b22b-4c3f-8ce2-df38139654e6">
 </details>
 
 <details>
